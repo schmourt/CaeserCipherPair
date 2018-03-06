@@ -19,5 +19,5 @@ fun encipher(s : String, n : Int, init : String) : String{
 
 
 fun main(args: Array<String>) {
-    println(encipher("Software_Design_Programming(SDP)", 499, ""))
+    println(encipher("WOWEE!!! :D", 6, ""))
 }

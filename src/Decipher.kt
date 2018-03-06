@@ -1,4 +1,4 @@
-fun decipher (s: String){
+fun decipher (s: String) : String{
 
     val freqMap = mapOf<Char, Double>('E' to 12.02, 'T' to 9.10, 'A' to 8.12, 'O' to 7.68, 'I' to 7.31, 'N' to 6.95,
             'S' to 6.95, 'R' to 6.02, 'H' to 5.92, 'D' to 4.32, 'L' to 3.98, 'U' to 2.88, 'C' to 2.71, 'M' to 2.61,
@@ -18,11 +18,11 @@ fun decipher (s: String){
         }
     }
 
-    println(outputString)
+    return (outputString)
 
     }
 
 fun main(args: Array<String>) {
-    (decipher("IJXOLN_UFYYJWNX!"))
+    (decipher("Ohlwk urfnv"))
 }
 

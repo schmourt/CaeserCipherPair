@@ -18,5 +18,15 @@ class EncipherKtTest{
         val testString = encipher("Software_Design_Programming(SDP)",499,"")
         assertEquals("Rnesvyqd_Cdrhfm_Oqnfqyllhmf(RCO)", testString)
     }
+    @Test
+    fun encipher4(){
+        val testString = encipher("United Kingdom of Great Britain and Northern Ireland", 14, "")
+        assertEquals("Icwisr Zwcurdb dt Vgsoi Qgwiowc ocr Ndgivsgc Xgsaocr", testString)
+    }
+    @Test
+    fun encipher5(){
+        val testString = encipher("WOWEE!!! :D", 6, "")
+        assertEquals("CUCKK!!! :J", testString)
+    }
 
 }
